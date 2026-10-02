@@ -1,13 +1,13 @@
 let home=0
-let guest=0
+let away=0
 
 let homeEl=document.getElementById("home-score")
-let guestEl=document.getElementById("guest-score")
+let awayEl=document.getElementById("guest-score")
 
 
-function addGuest(n){
-    guest+=n
-    guestEl.innerText=guest
+function addAway(n){
+    away+=n
+    awayEl.innerText=away
 }
 
 function addHome(n){
@@ -18,7 +18,7 @@ function addHome(n){
 
 function reset(){
     home=0
-    guest=0
+    away=0
     homeEl.innerText=home
-    guestEl.innerText=guest
+    awayEl.innerText=away
 }
